@@ -1,0 +1,62 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #1aa7df;
+  --ifm-color-primary-dark: #0096d1;
+  --ifm-color-primary-darker: #0085b9;
+  --ifm-color-primary-darkest: #00668f;
+  --ifm-color-primary-light: #2da7d8;
+  --ifm-color-primary-lighter: #2ba3d3;
+  --ifm-color-primary-lightest: #55adcf;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-navbar-height: 5rem;
+  --ifm-navbar-padding-vertical: 0;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #1aa7df;
+  --ifm-color-primary-dark: #0096d1;
+  --ifm-color-primary-darker: #0085b9;
+  --ifm-color-primary-darkest: #00668f;
+  --ifm-color-primary-light: #2da7d8;
+  --ifm-color-primary-lighter: #2ba3d3;
+  --ifm-color-primary-lightest: #55adcf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.navbar__link--active {
+  color: #1aa7df;
+}
+
+.navbar__logo {
+  height: 2.8rem;
+  padding-left: 1rem;
+  object-fit: contain;
+}
+
+.feature-svg svg {
+  width: 70%;
+  height: 70%;
+  
+}
+
+.verim-logo {
+  padding-top: 7%;
+  padding-bottom: 15%;
+}
+
+
+.feature-svg svg:nth-last-child(odd) {
+  padding-bottom: 5%;
+}
+
+a.navbar__item.navbar__link svg {
+  display: none;
+}
